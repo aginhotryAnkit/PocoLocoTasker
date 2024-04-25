@@ -28,5 +28,5 @@ Follow these steps to get your development environment set up:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/todo-app.git](https://github.com/aginhotryAnkit/PocoLocoTasker.git)
-   cd todo-app
+   git clone [https://github.com/yourusername/PocoLocoTasker.git](https://github.com/aginhotryAnkit/PocoLocoTasker.git)
+   cd PocoLocoTasker
