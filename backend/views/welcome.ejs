@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to TaskTracker</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .welcome-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome-container">
+      <h1>Welcome to TaskTracker</h1>
+      <p>Your simple solution to manage daily tasks effectively.</p>
+      <button id="learnMore">PocoLocoTaster</button>
+    </div>
+  </body>
+
+  <script>
+    document.getElementById("learnMore").addEventListener("click", function () {
+        window.location.href = "http://localhost:3000/PocoLocoTasker";
+    });
+  </script>
+
+</html>
